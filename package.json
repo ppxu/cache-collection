@@ -1,0 +1,23 @@
+{
+  "name": "cache-collection",
+  "version": "0.0.1",
+  "description": "a simple cache collection for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R Spec test/runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppxu/cache-collection.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cache"
+  ],
+  "author": "ppxu",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/ppxu/cache-collection/issues"
+  },
+  "homepage": "https://github.com/ppxu/cache-collection"
+}
