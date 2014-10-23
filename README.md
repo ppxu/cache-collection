@@ -12,22 +12,22 @@ cache-collection
     var cache = require('cache-collection');
 
     //创建一个group
-    var tms = cache.createGroup();
+    var test = cache.createGroup();
 
     //写入值
-    tms.set('name', 'taobao');
+    test.set('name', 'taobao');
     //读取值
-    var name = tms.get('name');
+    var name = test.get('name');
     //是否已缓存
-    var exist = tms.isCached('name');
+    var exist = test.isCached('name');
     //删除值
-    tms.del('name');
+    test.del('name');
 
     //设置过期时间，单位毫秒
-    tms.set('year', 2014, 300*1000);
+    test.set('year', 2014, 300*1000);
 
     //删除group
-    tms.clear();
+    test.clear();
 
     //删除所有cache（小心使用，会把其他人保存的cache也删掉）
     cache.clear();
