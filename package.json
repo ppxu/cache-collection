@@ -1,6 +1,6 @@
 {
   "name": "cache-collection",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a simple cache collection for nodejs",
   "main": "index.js",
   "scripts": {
